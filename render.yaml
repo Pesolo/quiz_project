@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: quiz-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn "app:create_app()" --bind 0.0.0.0:$PORT
+    envVars:
+      - key: FLASK_APP
+        value: manage.py
+      - key: FLASK_ENV
+        value: production
+      - key: Dpostgresql://grp_7:VtjQjmssE4kcHxeeC1QOc5iRYuC5iw1F@dpg-cu7cgs0gph6c73ba1hs0-a/software_proj
+        fromDatabase:
+          name: quiz-db
+          property: connectionString
+      - key: SECRET_KEY
+        generateValue: true
+      - key: PYTHON_VERSION
+        value: 3.11.5
+
+  - type: postgresql
+    name: quiz-db
+    ipAllowList: []
+    plan: free
