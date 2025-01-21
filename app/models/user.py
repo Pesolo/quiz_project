@@ -1,5 +1,5 @@
+import bcrypt
 from app import db
-from werkzeug.security import generate_password_hash, check_password_hash
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -9,9 +9,11 @@ class User(db.Model):
     total_points = db.Column(db.Integer, default=0)
     quizzes = db.relationship('QuizAttempt', backref='user', lazy=True)
     certificates = db.relationship('Certificate', backref='user', lazy=True)
-    
+
     def set_password(self, password):
-        self.password_hash = generate_password_hash(password)
+        # Hash the password and store it
+        self.password_hash = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
         
     def check_password(self, password):
-        return check_password_hash(self.password_hash, password)
+        # Compare the hashed password
+        return bcrypt.checkpw(password.encode('utf-8'), self.password_hash.encode('utf-8'))
