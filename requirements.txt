@@ -9,4 +9,4 @@ pillow==11.1.0
 qrcode==7.3
 python-decouple==3.4
 requests ==2.31.0
-werkzeug==1.0.1
+werkzeug>=2.0
