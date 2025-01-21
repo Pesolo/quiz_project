@@ -15,11 +15,10 @@ def create_app(config_class=Config):
     db.init_app(app)
     migrate.init_app(app, db)
 
-    # Import models here to avoid circular imports
-    with app.app_context():
-        from app.models import user, quiz, certificate  # Import models to register with SQLAlchemy
+    # Import models here to register them with SQLAlchemy
+    from app.models import user, quiz, certificate  # Import models to register with SQLAlchemy
 
-    # Initialize routes
+    # Initialize routes (ensure this is a proper blueprint registration)
     from app.routes import init_routes
     init_routes(app)
 
