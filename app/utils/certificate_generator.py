@@ -13,16 +13,39 @@ def generate_certificate_image(user, certificate):
         font = ImageFont.load_default()
     
     # Draw certificate content
-    draw.text((400, 100), "Certificate of Achievement", font=font, fill='black')
-    draw.text((400, 200), f"Awarded to: {user.username}", font=font, fill='black')
-    draw.text((400, 300), f"Level {certificate.level}", font=font, fill='black')
-    draw.text((400, 400), f"Category: {certificate.category}", font=font, fill='black')
+# Calculate center of the image
+    image_width, image_height = img.size
+
+    # Define text content
+    texts = [
+        "Certificate of Achievement",
+        f"Awarded to: {user.username}",
+        f"Level {certificate.level}",
+        f"Category: {certificate.category}"
+    ]
+
+    # Define starting y-coordinate and line spacing
+    start_y = 100
+    line_spacing = 50  # Space between lines
+
+    # Draw each line of text, center-aligned
+    for i, text in enumerate(texts):
+        text_width, text_height = draw.textsize(text, font=font)
+        x = (image_width - text_width) / 2  # Center horizontally
+        y = start_y + i * line_spacing  # Space lines vertically
+        draw.text((x, y), text, font=font, fill='black')
+
     
     # Generate QR code
     qr = qrcode.QRCode(version=1, box_size=10, border=5)
     qr.add_data(f"Certificate ID: {certificate.id}")
     qr.make(fit=True)
     qr_img = qr.make_image(fill_color="black", back_color="white")
+    qr_x = image_width - qr_img.width - 20  # 20px margin
+    qr_y = image_height - qr_img.height - 20
+    img.paste(qr_img, (qr_x, qr_y))
+
+
     
     # Convert to bytes
     img_byte_arr = io.BytesIO()
