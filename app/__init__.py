@@ -2,14 +2,18 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_cors import CORS
-from .config import Config
 
 # Initialize extensions
 db = SQLAlchemy()
 migrate = Migrate()
 
-def create_app(config_class=Config):
+def create_app(config_class=None):
     app = Flask(__name__)
+    
+    # Import config after app creation
+    from .config import Config
+    config_class = config_class or Config
+    
     app.config.from_object(config_class)
     
     # Initialize extensions with the app
@@ -17,11 +21,15 @@ def create_app(config_class=Config):
     migrate.init_app(app, db)
     CORS(app)
 
-    # Import models here to register them with SQLAlchemy
-    from app.models import user, quiz, certificate  # Import models to register with SQLAlchemy
+    with app.app_context():
+        # Import models here to avoid circular imports
+        from app.models import user, quiz, certificate
 
-    # Initialize routes (ensure this is a proper blueprint registration)
-    from app.routes import init_routes
-    init_routes(app)
+        # Initialize routes
+        from app.routes import init_routes
+        init_routes(app)
+
+        # Create tables if they don't exist
+        db.create_all()
 
     return app

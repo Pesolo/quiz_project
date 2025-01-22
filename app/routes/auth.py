@@ -76,12 +76,12 @@ def login():
             'message': str(e)
         }), 500
 
-# Optional: Add route to verify token and get user info
-@auth_bp.route('/verify', methods=['GET'])
-@token_required
-def verify_token(current_user):
-    return jsonify({
-        'status': 'success',
-        'user_id': current_user.id,
-        'username': current_user.username
-    })
+# # Optional: Add route to verify token and get user info
+# @auth_bp.route('/verify', methods=['GET'])
+# @token_required
+# def verify_token(current_user):
+#     return jsonify({
+#         'status': 'success',
+#         'user_id': current_user.id,
+#         'username': current_user.username
+#     })
