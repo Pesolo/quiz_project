@@ -29,8 +29,6 @@ def create_app(config_class=None):
         from app.routes import init_routes
         init_routes(app)
 
-        # Create tables if they don't exist
-        db.create_all()
 
     return app
 

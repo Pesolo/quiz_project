@@ -3,13 +3,13 @@ services:
     name: quiz-app
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: PYTHONPATH=$PYTHONPATH:/opt/render/project/src gunicorn wsgi:app --bind 0.0.0.0:$PORT
+    startCommand: echo "DATABASE_URL: $DATABASE_URL" && PYTHONPATH=$PYTHONPATH:/opt/render/project/src gunicorn wsgi:app --bind 0.0.0.0:$PORT
     envVars:
       - key: FLASK_APP
         value: manage.py
       - key: FLASK_ENV
         value: production
-      - key: postgresql://grp_7:VtjQjmssE4kcHxeeC1QOc5iRYuC5iw1F@dpg-cu7cgs0gph6c73ba1hs0-a/software_proj
+      - key: DATABASE_URL
         fromDatabase:
           name: quiz_db
           property: connectionString
