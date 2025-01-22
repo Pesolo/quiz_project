@@ -33,3 +33,7 @@ def create_app(config_class=None):
         db.create_all()
 
     return app
+
+# Create a default app instance for Gunicorn
+app = create_app()
+
