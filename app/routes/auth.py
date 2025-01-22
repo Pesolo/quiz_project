@@ -3,7 +3,7 @@ from app.models.user import User
 from app import db
 from app.utils import token_required
 import jwt
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 auth_bp = Blueprint('auth', __name__, url_prefix='/api/auth')
 
@@ -25,7 +25,7 @@ def register():
         # Generate token for immediate login after registration
         token = jwt.encode({
             'user_id': user.id,
-            'exp': datetime.utcnow() + timedelta(days=1)
+            'exp': datetime.now(timezone.utc) + timedelta(days=1)
         }, current_app.config['SECRET_KEY'])
         
         return jsonify({
