@@ -1,5 +1,4 @@
 from flask import Blueprint, request, jsonify, send_file
-from flask_login import current_user
 from app.models import Certificate
 from app.utils import token_required, generate_certificate_image
 
