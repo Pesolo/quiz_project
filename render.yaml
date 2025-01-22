@@ -9,10 +9,6 @@ services:
         value: manage.py
       - key: FLASK_ENV
         value: production
-      - key: postgresql://grp_7:VtjQjmssE4kcHxeeC1QOc5iRYuC5iw1F@dpg-cu7cgs0gph6c73ba1hs0-a/software_proj
-        fromDatabase:
-          name: quiz_db
-          property: connectionString
       - key: SECRET_KEY
         generateValue: true
       - key: PYTHON_VERSION
