@@ -7,7 +7,7 @@ quiz_bp = Blueprint('quiz', __name__, url_prefix='/api/quiz')
 
 @quiz_bp.route('/quiz/start', methods=['POST'])
 @token_required
-def start_quiz():
+def start_quiz(current_user):
     data = request.get_json()
     questions = fetch_trivia_questions(
         data['category'], 
@@ -23,7 +23,7 @@ def start_quiz():
 
 @quiz_bp.route('/quiz/submit', methods=['POST'])
 @token_required
-def submit_quiz():
+def submit_quiz(current_user):
     data = request.get_json()
     score = calculate_score(data['quiz_data'])
     points = calculate_points(data['quiz_data']['difficulty'], score)

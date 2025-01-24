@@ -6,7 +6,7 @@ cert_bp = Blueprint('certificate', __name__, url_prefix='/api/certificates')
 
 @cert_bp.route('/certificates/generate/<int:cert_id>', methods=['GET'])
 @token_required
-def generate_certificate(cert_id):
+def generate_certificate(current_user, cert_id):
     certificate = Certificate.query.get_or_404(cert_id)
     if certificate.user_id != current_user.id:
         return jsonify({'error': 'Unauthorized'}), 403
