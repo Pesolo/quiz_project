@@ -1,0 +1,262 @@
+[
+    {
+      "question": "What percentage of the Earth's surface is covered by water?",
+      "options": ["50%", "60%", "70%", "80%"],
+      "answer": "70%",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Groundwater is a renewable resource.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the primary source of freshwater on Earth?",
+      "options": ["Rivers", "Lakes", "Glaciers and ice caps", "Groundwater"],
+      "answer": "Glaciers and ice caps",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: The majority of the Earth's water is freshwater.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of the following is a major use of water worldwide?",
+      "options": ["Agriculture", "Industrial processes", "Domestic use", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Desalination is the process of removing salt from seawater to make it potable.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which river is considered the longest in the world?",
+      "options": ["Amazon", "Nile", "Yangtze", "Mississippi"],
+      "answer": "Nile",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Water is the only substance that can exist in three states of matter naturally.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the main cause of water scarcity in many regions?",
+      "options": ["Climate change", "Overpopulation", "Pollution", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: The hydrological cycle includes evaporation, condensation, and precipitation.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the term for underground layers of rock or sediment that hold water?",
+      "options": ["Aquifers", "Reservoirs", "Lagoons", "Estuaries"],
+      "answer": "Aquifers",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Oceans account for over 97% of Earth's water.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of these is a non-renewable water source?",
+      "options": ["Aquifers", "Lakes", "Rivers", "Rainfall"],
+      "answer": "Aquifers",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: The water footprint of a person measures the total amount of water they consume directly and indirectly.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which process is part of the natural purification of water?",
+      "options": ["Filtration through soil", "Evaporation", "Sedimentation", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Freshwater is evenly distributed around the world.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of the following is a method to conserve water?",
+      "options": ["Rainwater harvesting", "Fixing leaks", "Using water-efficient appliances", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Icebergs are a potential source of freshwater.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What percentage of freshwater is readily accessible for human use?",
+      "options": ["1%", "10%", "20%", "30%"],
+      "answer": "1%",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Industrial waste is a major source of water pollution.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of these is NOT a type of water pollution?",
+      "options": ["Thermal", "Chemical", "Radiation", "Solar"],
+      "answer": "Solar",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Dams are built only for hydroelectric power generation.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the largest source of freshwater on Earth?",
+      "options": ["Rivers", "Groundwater", "Atmosphere", "Glaciers and ice caps"],
+      "answer": "Glaciers and ice caps",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Waterborne diseases are caused by drinking contaminated water.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of the following is an example of point-source pollution?",
+      "options": ["Agricultural runoff", "Factory discharge", "Urban runoff", "Forest runoff"],
+      "answer": "Factory discharge",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Wetlands act as natural water filters.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which region has the highest water stress?",
+      "options": ["Sub-Saharan Africa", "Middle East and North Africa", "Southeast Asia", "South America"],
+      "answer": "Middle East and North Africa",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Water vapor is a greenhouse gas.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which is a direct impact of deforestation on water resources?",
+      "options": ["Increased rainfall", "Reduced groundwater recharge", "Cleaner rivers", "All of the above"],
+      "answer": "Reduced groundwater recharge",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Reverse osmosis is a method used in water purification.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the primary reason for the construction of reservoirs?",
+      "options": ["Flood control", "Water storage", "Hydropower generation", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Freshwater ecosystems include rivers, lakes, and wetlands.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which type of irrigation is most water-efficient?",
+      "options": ["Flood irrigation", "Drip irrigation", "Sprinkler irrigation", "Surface irrigation"],
+      "answer": "Drip irrigation",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Water conservation practices can help mitigate climate change.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of the following is a consequence of overusing groundwater?",
+      "options": ["Land subsidence", "Water table decline", "Decreased water quality", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Climate change has no impact on the availability of water resources.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the term for water that is safe to drink?",
+      "options": ["Potable", "Brackish", "Distilled", "Filtered"],
+      "answer": "Potable",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: The Amazon River carries the largest volume of water of any river in the world.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the primary use of greywater recycling?",
+      "options": ["Drinking", "Irrigation", "Cooking", "Hydropower"],
+      "answer": "Irrigation",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Saltwater intrusion occurs when seawater enters freshwater aquifers.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which process is involved in the hydrological cycle?",
+      "options": ["Evaporation", "Condensation", "Precipitation", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Agriculture is the largest consumer of freshwater globally.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is eutrophication?",
+      "options": ["The process of desalination", "Excessive nutrient buildup in water bodies", "Formation of glaciers", "Water purification"],
+      "answer": "Excessive nutrient buildup in water bodies",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Coral reefs are dependent on freshwater ecosystems.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "Which technology is commonly used in modern wastewater treatment plants?",
+      "options": ["Membrane filtration", "UV disinfection", "Biological treatment", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Freshwater makes up less than 3% of the total water on Earth.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is a major consequence of water pollution?",
+      "options": ["Loss of biodiversity", "Health issues", "Economic impact", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    }
+  ]
+  

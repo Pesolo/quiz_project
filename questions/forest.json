@@ -1,0 +1,212 @@
+[
+    {
+      "question": "What percentage of the Earth's surface is covered by forests?",
+      "options": ["10%", "20%", "30%", "40%"],
+      "answer": "30%",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forests act as carbon sinks by absorbing carbon dioxide from the atmosphere.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of the following is a primary benefit of forests?",
+      "options": ["Air purification", "Habitat for wildlife", "Climate regulation", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Deforestation contributes to global warming.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the largest rainforest in the world?",
+      "options": ["Amazon", "Congo", "Daintree", "Sundarbans"],
+      "answer": "Amazon",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Mangroves are a type of forest found in coastal areas.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What term describes forests that have not been significantly disturbed by human activity?",
+      "options": ["Plantation forests", "Primary forests", "Urban forests", "Secondary forests"],
+      "answer": "Primary forests",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forests play no role in the water cycle.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of these is a major cause of deforestation?",
+      "options": ["Agricultural expansion", "Urbanization", "Logging", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Reforestation is the process of planting trees in deforested areas.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the main product obtained from commercial forests?",
+      "options": ["Timber", "Medicinal plants", "Fruits", "All of the above"],
+      "answer": "Timber",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forests are home to over 80% of terrestrial species of animals, plants, and fungi.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What type of forest is dominated by coniferous trees?",
+      "options": ["Tropical forests", "Temperate forests", "Boreal forests", "Mangrove forests"],
+      "answer": "Boreal forests",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forests can reduce the risk of floods by retaining water in their soil.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which international day is dedicated to forests?",
+      "options": ["Earth Day", "World Forest Day", "International Day of Forests", "Tree Planting Day"],
+      "answer": "International Day of Forests",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Tropical rainforests are characterized by high rainfall and biodiversity.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the primary purpose of forest conservation?",
+      "options": ["Preserving biodiversity", "Maintaining climate balance", "Preventing soil erosion", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forest fragmentation has no effect on wildlife migration.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of the following is a major threat to forests?",
+      "options": ["Illegal logging", "Forest fires", "Pests and diseases", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Agroforestry integrates trees and agriculture to benefit both.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What percentage of forests are classified as primary forests?",
+      "options": ["20%", "30%", "40%", "50%"],
+      "answer": "30%",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Urban forests are found in cities and towns.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which country has the largest area of forest cover?",
+      "options": ["Brazil", "Russia", "Canada", "United States"],
+      "answer": "Russia",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forest ecosystems can help mitigate the effects of climate change.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the main function of mangrove forests?",
+      "options": ["Prevent soil erosion", "Provide habitat for fish", "Protect coastlines", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forests release oxygen through the process of photosynthesis.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the leading cause of forest degradation?",
+      "options": ["Overgrazing", "Climate change", "Industrial pollution", "Unsustainable logging"],
+      "answer": "Unsustainable logging",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Temperate forests are found near the equator.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the process of planting trees in non-forested areas called?",
+      "options": ["Afforestation", "Reforestation", "Deforestation", "Agroforestry"],
+      "answer": "Afforestation",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forest fires are always harmful to ecosystems.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of these is NOT a forest biome?",
+      "options": ["Savanna", "Tropical rainforest", "Boreal forest", "Temperate forest"],
+      "answer": "Savanna",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forest ecosystems provide medicinal resources.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the term for removing all trees from a specific area?",
+      "options": ["Clear-cutting", "Selective logging", "Thinning", "Pruning"],
+      "answer": "Clear-cutting",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Forests contribute to the regulation of the Earth's temperature.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which layer of a forest consists of the tallest trees?",
+      "options": ["Understory", "Canopy", "Emergent layer", "Forest floor"],
+      "answer": "Emergent layer",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: All forests are natural and not human-made.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the primary role of the understory in a forest?",
+      "options": ["Provide habitat for small animals", "Regulate light reaching the forest floor", "Serve as a nursery for young plants", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Biodiversity is higher in tropical forests than in boreal forests.",
+      "answer": "True",
+      "type": "true-false"
+    }
+  ]
+  

@@ -1,0 +1,218 @@
+[
+    {
+      "question": "What is the primary purpose of conserving mineral resources?",
+      "options": ["To reduce environmental impact", "To ensure future availability", "To promote sustainable development", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Minerals are renewable resources.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of the following is NOT a method of conserving mineral resources?",
+      "options": ["Recycling metals", "Over-mining", "Using substitutes", "Improving mining efficiency"],
+      "answer": "Over-mining",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Mining can lead to deforestation and loss of biodiversity.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of these minerals is primarily used in electronics?",
+      "options": ["Gold", "Copper", "Silicon", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Sustainable mining practices help reduce environmental damage.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the primary environmental impact of coal mining?",
+      "options": ["Air pollution", "Soil degradation", "Water contamination", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Minerals like iron and aluminum can be recycled indefinitely.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of these is a critical step in mineral conservation?",
+      "options": ["Adopting efficient extraction methods", "Reducing mineral wastage", "Reusing scrap metals", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Over-extraction of minerals can lead to resource depletion.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the term for mining that causes minimal environmental damage?",
+      "options": ["Sustainable mining", "Surface mining", "Open-pit mining", "Illegal mining"],
+      "answer": "Sustainable mining",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Land rehabilitation is an essential part of responsible mining.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which mineral is most commonly used in construction?",
+      "options": ["Limestone", "Gold", "Silicon", "Bauxite"],
+      "answer": "Limestone",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Using renewable energy in mining operations reduces environmental harm.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the primary use of rare earth minerals?",
+      "options": ["Electronics manufacturing", "Agriculture", "Textile production", "Fuel"],
+      "answer": "Electronics manufacturing",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Mining contributes significantly to greenhouse gas emissions.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of these is an example of mineral substitution?",
+      "options": ["Using plastic instead of metal", "Using fiber optics instead of copper", "Using aluminum instead of steel", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Recycling reduces the demand for newly mined minerals.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is a major byproduct of gold mining?",
+      "options": ["Cyanide", "Carbon dioxide", "Sulfur dioxide", "Silicon"],
+      "answer": "Cyanide",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Strip mining has a lower environmental impact compared to underground mining.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the benefit of mineral resource conservation?",
+      "options": ["Preserving ecosystems", "Reducing energy consumption", "Minimizing waste", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Open-pit mining is less damaging to the environment than deep mining.",
+      "answer": "False",
+      "type": "true-false"
+    },
+    {
+      "question": "Which country is the largest producer of rare earth minerals?",
+      "options": ["China", "Australia", "India", "United States"],
+      "answer": "China",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Minerals like silver and copper are essential for renewable energy technologies.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which of these processes helps conserve minerals?",
+      "options": ["Recycling metals", "Using bio-mining techniques", "Phasing out inefficient mining", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Mining tailings can be reused in construction materials.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is a key challenge of mineral recycling?",
+      "options": ["High energy consumption", "Expensive technology", "Limited public awareness", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Conservation of mineral resources requires international collaboration.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which mineral is primarily used in batteries for electric vehicles?",
+      "options": ["Lithium", "Gold", "Iron", "Copper"],
+      "answer": "Lithium",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Using advanced technologies can reduce the environmental impact of mining.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What does the term 'bio-mining' refer to?",
+      "options": ["Mining using living organisms", "Mining in underwater environments", "Mining in deserts", "None of the above"],
+      "answer": "Mining using living organisms",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: The depletion of non-renewable minerals is irreversible.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which industry is the largest consumer of iron ore?",
+      "options": ["Construction", "Automotive", "Energy", "Technology"],
+      "answer": "Construction",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Mining laws and regulations can promote mineral conservation.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is the major environmental hazard of improper disposal of mining waste?",
+      "options": ["Soil contamination", "Water pollution", "Air pollution", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Urban mining involves extracting minerals from e-waste.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "Which mineral is most commonly used in the production of cement?",
+      "options": ["Gypsum", "Copper", "Aluminum", "Silver"],
+      "answer": "Gypsum",
+      "type": "multiple-choice"
+    },
+    {
+      "question": "True or False: Minerals like uranium are used in nuclear energy production.",
+      "answer": "True",
+      "type": "true-false"
+    },
+    {
+      "question": "What is one way to reduce mineral resource consumption?",
+      "options": ["Using renewable energy", "Promoting recycling", "Developing synthetic materials", "All of the above"],
+      "answer": "All of the above",
+      "type": "multiple-choice"
+    }
+  ]
+  

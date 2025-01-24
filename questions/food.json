@@ -1,0 +1,237 @@
+[
+  {
+    "question": "What is the primary goal of food resource conservation?",
+    "options": ["Reducing food waste", "Ensuring food security", "Sustainable agriculture", "All of the above"],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Food resource conservation focuses only on reducing food waste.",
+    "answer": "False",
+    "type": "true-false"
+  },
+  {
+    "question": "Which of the following is a method to reduce food waste?",
+    "options": ["Composting", "Proper food storage", "Donating surplus food", "All of the above"],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Urban farming contributes to food conservation.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "What percentage of food is estimated to be wasted globally each year?",
+    "options": ["10%", "20%", "30%", "40%"],
+    "answer": "30%",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Sustainable farming practices can help conserve food resources.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "Which of the following is a sustainable farming practice?",
+    "options": ["Crop rotation", "Monoculture", "Slash-and-burn agriculture", "None of the above"],
+    "answer": "Crop rotation",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Food miles refer to the distance food travels from production to consumer.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "Which type of food has the smallest carbon footprint?",
+    "options": ["Locally grown food", "Imported food", "Processed food", "Packaged food"],
+    "answer": "Locally grown food",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Reducing meat consumption can help conserve food resources.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "What is the main benefit of organic farming?",
+    "options": ["Reduces soil pollution", "Improves biodiversity", "Minimizes chemical use", "All of the above"],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Preserving traditional food practices can aid in food conservation.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "Which of the following can help extend the shelf life of food?",
+    "options": ["Refrigeration", "Canning", "Freezing", "All of the above"],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Overfishing is a threat to food resource conservation.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "What is the main purpose of food preservation methods?",
+    "options": ["Enhancing flavor", "Preventing spoilage", "Reducing storage space", "Increasing food prices"],
+    "answer": "Preventing spoilage",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Seasonal eating can contribute to food conservation.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "Which is an example of a food conservation strategy?",
+    "options": ["Plant-based diets", "Composting food waste", "Reducing portion sizes", "All of the above"],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Food insecurity affects only developing countries.",
+    "answer": "False",
+    "type": "true-false"
+  },
+  {
+    "question": "What does the term 'food desert' mean?",
+    "options": [
+      "An area with no arable land",
+      "A region with limited access to affordable healthy food",
+      "A place where food is excessively abundant",
+      "None of the above"
+    ],
+    "answer": "A region with limited access to affordable healthy food",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Reducing packaging waste is unrelated to food conservation.",
+    "answer": "False",
+    "type": "true-false"
+  },
+  {
+    "question": "Which food group has the highest water footprint?",
+    "options": ["Vegetables", "Meat", "Grains", "Fruits"],
+    "answer": "Meat",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Cooking leftovers instead of discarding them can help conserve food.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "What is a primary cause of food waste in households?",
+    "options": ["Buying in bulk", "Overcooking", "Not using leftovers", "All of the above"],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Farmers' markets promote food resource conservation by reducing food miles.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "What does 'farm-to-table' emphasize?",
+    "options": [
+      "Sourcing local and fresh ingredients",
+      "Exporting food",
+      "Mass food production",
+      "Using synthetic fertilizers"
+    ],
+    "answer": "Sourcing local and fresh ingredients",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Food labeling can help consumers make sustainable choices.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "Which is NOT a benefit of food conservation?",
+    "options": ["Reducing waste", "Preserving resources", "Increasing hunger", "Lowering costs"],
+    "answer": "Increasing hunger",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Food banks are organizations that help redistribute surplus food.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "Which of the following contributes to food insecurity?",
+    "options": ["Climate change", "Economic inequality", "Poor food distribution systems", "All of the above"],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Global food production is sufficient to feed the world’s population.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "What is the primary goal of the Zero Hunger initiative?",
+    "options": [
+      "Eliminating food waste",
+      "Ending hunger and ensuring food security",
+      "Improving crop yields",
+      "Reducing carbon emissions"
+    ],
+    "answer": "Ending hunger and ensuring food security",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Sustainable fisheries play a role in conserving food resources.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "Which practice helps conserve water used in agriculture?",
+    "options": ["Drip irrigation", "Flood irrigation", "Over-irrigation", "None of the above"],
+    "answer": "Drip irrigation",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Organic farming reduces the use of synthetic pesticides and fertilizers.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "What is the main purpose of community-supported agriculture (CSA)?",
+    "options": [
+      "Encourage sustainable farming",
+      "Connect farmers and consumers",
+      "Provide fresh, local food",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Genetically modified crops (GMOs) are never used to conserve food resources.",
+    "answer": "False",
+    "type": "true-false"
+  },
+  {
+    "question": "Which organization leads global efforts to reduce hunger?",
+    "options": ["UNICEF", "World Food Programme", "World Bank", "UNESCO"],
+    "answer": "World Food Programme",
+    "type": "multiple-choice"
+  },
+  {
+    "question": "True or False: Climate-resilient crops are important for food conservation.",
+    "answer": "True",
+    "type": "true-false"
+  },
+  {
+    "question": "What is a major factor contributing to post-harvest food loss?",
+    "options": ["Poor storage", "Pests", "Transport delays", "All of the above"],
+    "answer": "All of the above",
+    "type": "multiple-choice"
+  }
+]
