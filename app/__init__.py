@@ -33,5 +33,5 @@ def create_app(config_class=None):
     return app
 
 # Create a default app instance for Gunicorn
-app = create_app()
+# app = create_app()
 
