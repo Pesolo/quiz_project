@@ -58,7 +58,7 @@ def login():
         
         token = jwt.encode({
             'user_id': user.id,
-            'exp': datetime.utcnow() + timedelta(days=1)
+            'exp': datetime.now(timezone.utc) + timedelta(days=1)
         }, current_app.config['SECRET_KEY'])
         
         return jsonify({

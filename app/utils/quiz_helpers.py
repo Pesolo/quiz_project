@@ -33,7 +33,7 @@ def fetch_trivia_questions(category: str, difficulty: str, amount: int = 10) -> 
     
     # Load questions from the JSON file
     try:
-        file_path = os.path.join('question', file_name)
+        file_path = os.path.join('questions', file_name)
         with open(file_path, 'r') as f:
             questions = json.load(f)
         
