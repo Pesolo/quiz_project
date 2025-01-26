@@ -1,7 +1,8 @@
 from flask import Blueprint, request, jsonify
-from app.models import QuizAttempt
+from app.models import QuizAttempt, Certificate
 from app.utils import token_required, calculate_score, fetch_trivia_questions, calculate_points
 import uuid
+from app import db
 
 quiz_bp = Blueprint('quiz', __name__, url_prefix='/api/quiz')
 
@@ -37,8 +38,16 @@ def submit_quiz(current_user):
     db.session.add(attempt)
     
     current_user.total_points += points
-    if current_user.total_points >= current_user.current_level * 1000:
-        current_user.current_level += 1
+    if current_user.current_level < 5:
+        if current_user.total_points >= current_user.current_level * 1000:
+            current_user.current_level += 1
+
+    certificate = Certificate(
+            user_id=current_user.id,
+            level=current_user.current_level,
+            completed_quiz_id=attempt.id
+        )
+    db.session.add(certificate)
         
     
     db.session.commit()
