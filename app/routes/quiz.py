@@ -31,7 +31,7 @@ def start_quiz(current_user):
 @token_required
 def submit_quiz(current_user):
     data = request.get_json()
-    score = (data['scores'])
+    score = int(data['scores'])
     points = calculate_points(score)
     
     attempt = QuizAttempt(
