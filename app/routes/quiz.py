@@ -1,10 +1,12 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, session  
 from app.models import QuizAttempt, Certificate
-from app.utils import token_required, calculate_score, fetch_trivia_questions, calculate_points
+from app.utils import token_required,  fetch_trivia_questions, calculate_points
 import uuid
 from app import db
 
 quiz_bp = Blueprint('quiz', __name__, url_prefix='/api/quiz')
+
+
 
 @quiz_bp.route('/quiz/start', methods=['POST'])
 @token_required
@@ -17,6 +19,9 @@ def start_quiz(current_user):
     if not questions:
         return jsonify({'error': 'Failed to fetch questions'}), 500
     
+    session['quiz_category'] = data['category']
+    
+
     return jsonify({
         'quiz_id': str(uuid.uuid4()),
         'questions': questions
@@ -26,14 +31,13 @@ def start_quiz(current_user):
 @token_required
 def submit_quiz(current_user):
     data = request.get_json()
-    score = calculate_score(data['quiz_data'])
-    points = calculate_points(data['quiz_data']['difficulty'], score)
+    score = (data['scores'])
+    points = calculate_points(score)
     
     attempt = QuizAttempt(
         user_id=current_user.id,
-        category=data['quiz_data']['category'],
-        score=score,
-        difficulty=data['quiz_data']['difficulty']
+        category=session.get('quiz_category'),
+        score=score
     )
     db.session.add(attempt)
     
@@ -41,12 +45,12 @@ def submit_quiz(current_user):
     if current_user.current_level < 5:
         if current_user.total_points >= current_user.current_level * 1000:
             current_user.current_level += 1
-
-    certificate = Certificate(
+            certificate = Certificate(
             user_id=current_user.id,
             level=current_user.current_level
-        )
-    db.session.add(certificate)
+            )
+            db.session.add(certificate)
+
         
     
     db.session.commit()

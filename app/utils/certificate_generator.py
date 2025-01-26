@@ -20,8 +20,8 @@ def generate_certificate_image(user, certificate):
     texts = [
         "Certificate of Achievement In Resource Conservation",
         f"Awarded to: {user.username}",
-        f"Level {certificate.level}"
-        f"Date {certificate.date_earned}"
+        f"Level: {certificate.level}",
+        f"Date: {certificate.date_earned.strftime('%Y-%m-%d')}"
     ]
 
     # Define starting y-coordinate and line spacing

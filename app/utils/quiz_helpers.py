@@ -3,18 +3,11 @@ import random
 import os
 from typing import List, Dict, Any
 
-def calculate_score(quiz_data: Dict[str, Any]) -> int:
-    """Calculate the score based on correct answers"""
-    return sum(1 for answer in quiz_data['answers'] if answer['correct'])
 
-def calculate_points(difficulty: str, correct_answers: int) -> int:
-    """Calculate points based on difficulty and correct answers"""
-    difficulty_multiplier = {
-        'easy': 2,
-        'medium': 2,
-        'hard': 2
-    }
-    return correct_answers * 10 * difficulty_multiplier[difficulty]
+def calculate_points(correct_answers: int) -> int:
+    """Calculate points based on correct answers"""
+   
+    return correct_answers * 10 
 
 def fetch_trivia_questions(category: str, difficulty: str, amount: int = 10) -> List[Dict[str, Any]]:
     """Fetch and format trivia questions from local files"""
