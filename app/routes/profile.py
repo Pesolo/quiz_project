@@ -19,10 +19,10 @@ def get_profile(current_user):
         for quiz in current_user.quizzes:
             quiz_history.append({
                 'quiz_id': quiz.id,
-                'score': quiz.score,
-                'total_questions': quiz.total_questions,
+                'score': int(quiz.score),
+                'total_questions': 10,
                 'percentage': round((quiz.score / quiz.total_questions) * 100, 2) if quiz.total_questions > 0 else 0,
-                'completed_at': quiz.completed_at.strftime("%Y-%m-%d %H:%M:%S"),
+                'completed_at': quiz.date_attempted.strftime("%Y-%m-%d %H:%M:%S"),
                 'category': quiz.category
             })
 

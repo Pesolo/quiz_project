@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify, send_file
-from app.models import Certificate
+from app.models import Certificate, User
 from app.utils import token_required, generate_certificate_image
 
 cert_bp = Blueprint('certificate', __name__, url_prefix='/api/certificates')
