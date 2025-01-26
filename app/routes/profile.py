@@ -21,7 +21,7 @@ def get_profile(current_user):
                 'quiz_id': quiz.id,
                 'score': int(quiz.score),
                 'total_questions': 10,
-                'percentage': round((quiz.score / quiz.total_questions) * 100, 2) if quiz.total_questions > 0 else 0,
+                'percentage': round((quiz.score / quiz.total_questions) * 100, 2) 
                 'completed_at': quiz.date_attempted.strftime("%Y-%m-%d %H:%M:%S"),
                 'category': quiz.category
             })
