@@ -44,8 +44,7 @@ def submit_quiz(current_user):
 
     certificate = Certificate(
             user_id=current_user.id,
-            level=current_user.current_level,
-            completed_quiz_id=attempt.id
+            level=current_user.current_level
         )
     db.session.add(certificate)
         
