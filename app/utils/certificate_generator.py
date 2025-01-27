@@ -13,7 +13,6 @@ def generate_certificate_image(user, certificate):
         font = ImageFont.load_default()
     
     # Draw certificate content
-# Calculate center of the image
     image_width, image_height = img.size
 
     # Define text content
@@ -30,12 +29,15 @@ def generate_certificate_image(user, certificate):
 
     # Draw each line of text, center-aligned
     for i, text in enumerate(texts):
-        text_width, text_height = draw.textsize(text, font=font)
+        # Use textbbox to get the bounding box of the text
+        bbox = draw.textbbox((0, 0), text, font=font)
+        text_width = bbox[2] - bbox[0]  # Calculate width from bounding box
+        text_height = bbox[3] - bbox[1]  # Calculate height from bounding box
+
         x = (image_width - text_width) / 2  # Center horizontally
         y = start_y + i * line_spacing  # Space lines vertically
         draw.text((x, y), text, font=font, fill='black')
 
-    
     # Generate QR code
     qr = qrcode.QRCode(version=1, box_size=10, border=5)
     qr.add_data(f"Certificate ID: {certificate.id}")
@@ -45,8 +47,6 @@ def generate_certificate_image(user, certificate):
     qr_y = image_height - qr_img.height - 20
     img.paste(qr_img, (qr_x, qr_y))
 
-
-    
     # Convert to bytes
     img_byte_arr = io.BytesIO()
     img.save(img_byte_arr, format='PNG')
