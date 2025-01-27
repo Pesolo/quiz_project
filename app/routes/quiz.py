@@ -45,11 +45,12 @@ def submit_quiz(current_user):
     if current_user.current_level < 5:
         if current_user.total_points >= current_user.current_level * 1000:
             current_user.current_level += 1
-            certificate = Certificate(
-            user_id=current_user.id,
-            level=current_user.current_level
-            )
-            db.session.add(certificate)
+        
+        certificate = Certificate(
+        user_id=current_user.id,
+        level=current_user.current_level
+         )
+        db.session.add(certificate)
 
         
     
