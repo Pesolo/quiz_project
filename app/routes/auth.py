@@ -18,6 +18,7 @@ def register():
             }), 400
         
         user = User(username=data['username'])
+        user.fullname = data['fullname']
         user.set_password(data['password'])
         db.session.add(user)
         db.session.commit()

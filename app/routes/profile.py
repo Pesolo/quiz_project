@@ -29,6 +29,7 @@ def get_profile(current_user):
         # Prepare response data
         profile_data = {
             'username': current_user.username,
+            'Full Name': current_user.fullname,
             'total_points': current_user.total_points,
             'current_level': current_user.current_level,
             'quiz_history': quiz_history,
