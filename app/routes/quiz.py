@@ -56,9 +56,9 @@ def submit_quiz(current_user):
     
     db.session.commit()
     
-    return jsonify({
-        'score': score,
-        'points_earned': points,
-        'new_level': current_user.current_level,
-        'total_points': current_user.total_points
-    })
+    # return jsonify({
+    #     'score': score,
+    #     'points_earned': points,
+    #     'new_level': current_user.current_level,
+    #     'total_points': current_user.total_points
+    # })
