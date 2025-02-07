@@ -36,7 +36,7 @@ def submit_quiz(current_user):
     
     attempt = QuizAttempt(
         user_id=current_user.id,
-        category=session.get('quiz_category'),
+        category=data['category'],
         score=score
     )
     db.session.add(attempt)
