@@ -31,6 +31,17 @@ def start_quiz(current_user):
 @token_required
 def submit_quiz(current_user):
     data = request.get_json()
+    print("recieved payload", data)
+
+    if not data:
+        return jsonify({"error": "Invalid request: No data received"}), 400
+
+    if 'scores' not in data:
+        return jsonify({"error": "Missing 'scores' in request body"}), 400
+
+    if 'category' not in data:
+        return jsonify({"error": "Missing 'category' in request body"}), 400
+    
     score = int(data['scores'])
     points = calculate_points(score)
     
