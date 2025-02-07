@@ -31,8 +31,8 @@ def start_quiz(current_user):
 @token_required
 def submit_quiz(current_user):
     data = request.get_json()
-    cat = session['quiz_category']
-    print("recieved payload:", data, cat)
+    # cat = session['quiz_category']
+    print("recieved payload:", data)
 
     if not data:
         return jsonify({"error": "Invalid request: No data received"}), 400
